@@ -1,0 +1,59 @@
+/* Write your code here. */
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff33;
+    width: 80%;
+    border: 3px solid #ffffff33;
+    border-radius: 24px;
+    margin: auto;
+    padding: 30px;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    order: 0;
+}
+.status{
+    color: #ffffff;
+    font-family: "roboto";
+    font-size: 60px;
+    font-weight: bold;
+}
+.label{
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+}
+.value{
+    text-align: center;
+    color: #6a59ff;
+    font-size: 30px;
+    font-weight: bold;
+}
+.playagain{
+    color: #3d3d3d;
+    background-color: #ffce27;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    margin: 16px;
+    padding:16px;
+    cursor: pointer;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.imagesection{
+    display: flex;
+    justify-content: center;
+    order: 0;
+}
+.image{
+    width: 350px;
+    height: 450px;
+}

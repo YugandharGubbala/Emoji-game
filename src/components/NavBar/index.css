@@ -1,0 +1,35 @@
+/* Write your code here. */
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff33;
+  padding: 8px;
+}
+.titlewithscore {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 80%;
+  max-width: 1000px;
+}
+.logoandtitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo {
+  width: 48px;
+}
+.title {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+}
+.scorecontainer {
+  display: flex;
+}
+.score {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 30px;
+}

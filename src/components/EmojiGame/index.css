@@ -1,0 +1,22 @@
+/* Write your code here. */
+.app {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+  min-height: 100vh;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.listcontainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  
+  padding: 0px;
+  max-width: 1000px;
+}
